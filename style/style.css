@@ -1,0 +1,82 @@
+:root {
+    --first-color: #9B1C53;
+    --second-color: #fff;
+    --third-color: #BF9100;
+    --fourth-color: #000000;
+}
+
+.header {
+    background-image: url(/images/back.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    background-color: transparent !important;
+}
+
+.navbar a {
+    color: var(--second-color) !important;
+}
+
+.navbar .container {
+    background-color: var(--first-color) !important;
+    border-radius: 12px;
+}
+
+.header-body {
+    color: var(--second-color);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: 50%;
+}
+
+.Our-works img {
+    width: 100%;
+}
+
+.box {
+    margin: auto;
+}
+
+.client h2 {
+    margin-left: 45%;
+}
+
+.client img {
+    width: 70%;
+    margin-left: 14%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--fourth-color);
+    opacity: .5;
+}
+
+.works-1 img {
+    width: 24%;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.paraghraph p {
+    opacity: .8;
+}
+
+.paraghraph h4 {
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+.paraghraph {
+    margin: auto;
+    margin-top: 25px;
+}
